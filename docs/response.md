@@ -1,11 +1,11 @@
-# ⚠️ Response Codes & Error Handling
+# Response Codes & Error Handling
 
 This section defines the standardized HTTP response codes, OpenCMS custom response codes, and error structures returned by the APIs.  
 It helps developers interpret success, warning, and failure conditions accurately during integration.
 
 ---
 
-# 🧩 Overview
+# Overview
 
 Every OpenCMS API returns a **Response Object** containing:
 
@@ -16,7 +16,7 @@ Every OpenCMS API returns a **Response Object** containing:
 
 ---
 
-# 🟢 Standard HTTP Status Codes
+# Standard HTTP Status Codes
 
 | HTTP Code | Status | Meaning | Action Required |
 |-----------|--------|---------|------------------|
@@ -51,16 +51,16 @@ Every OpenCMS API returns a **Response Object** containing:
 }
 ```
 
-## 🔁 Retry Logic
+## Retry Logic
 | Error Type                 | Recommended Action           | Retry Interval |
 | -------------------------- | ---------------------------- | -------------- |
 | Timeout / **408** / **20** | Retry request                | 2–5 seconds    |
 | **429 Too Many Requests**  | Exponential backoff          | 5–10 seconds   |
 | **500 / 503**              | Retry after delay            | 10–15 seconds  |
-| Validation / **400 / 05**  | ❌ Do NOT retry — fix payload | N/A            |
+| Validation / **400 / 05**  | Do NOT retry — fix payload | N/A            |
 
 
-## 🧰 Error Handling Guidelines
+## Error Handling Guidelines
 
 - Always validate mandatory fields before calling APIs.
 
@@ -81,7 +81,7 @@ Every OpenCMS API returns a **Response Object** containing:
     - Retry counters
     - Failure logs
 
-## 🚨 Common Failure Scenarios
+## Common Failure Scenarios
 
 | Scenario                | Symptom                     | Resolution                |
 | ----------------------- | --------------------------- | ------------------------- |
@@ -92,7 +92,7 @@ Every OpenCMS API returns a **Response Object** containing:
 | **Scheme Down**         | 41 External Service Failure | Retry after 1–2 mins      |
 
 
-## 🧠 Developer Tips
+## Developer Tips
 
 - Always include X-Correlation-ID for system-wide traceability.
 
@@ -104,10 +104,10 @@ Every OpenCMS API returns a **Response Object** containing:
     - HTTP status
     - OpenCMS custom code
 
-## 🚀 Next Steps
+## Next Steps
 
-➡️ Continue with Authentication API
-➡️ Explore Card Lifecycle APIs
-➡️ Review Data Type References
+- Continue with Authentication API
+- Explore Card Lifecycle APIs
+- Review Data Type References
 
 

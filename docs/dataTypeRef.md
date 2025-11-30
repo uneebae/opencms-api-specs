@@ -1,18 +1,18 @@
-# 🧾 Data Type References
+# Data Type References
 
 This section provides a complete reference for all data types, enumerations, and validation rules used across OpenCMS APIs.  
 It ensures data consistency and compatibility between Authentication, Card Lifecycle, Inquiry, and Limit & Preferences APIs.
 
 ---
 
-# 🧩 Overview
+# Overview
 
 - OpenCMS APIs use **JSON** for all requests and responses.  
 - Each field follows a strict data type definition to ensure schema validation, API security, and predictable integration.
 
 ---
 
-# 📚 Standard Data Types
+# Standard Data Types
 
 | Type | Description | Example | Allowed Format / Range | Common Fields |
 |------|-------------|---------|------------------------|----------------|
@@ -29,9 +29,9 @@ It ensures data consistency and compatibility between Authentication, Card Lifec
 
 ---
 
-# 🔠 Enumerations
+# Enumerations
 
-## 🔹 Card Status Enumeration
+## Card Status Enumeration
 
 | Value | Description |
 |--------|-------------|
@@ -44,7 +44,7 @@ It ensures data consistency and compatibility between Authentication, Card Lifec
 
 ---
 
-## 🔹 Transaction Type Enumeration
+## Transaction Type Enumeration
 
 | Value | Description |
 |--------|-------------|
@@ -55,7 +55,7 @@ It ensures data consistency and compatibility between Authentication, Card Lifec
 
 ---
 
-## 🔹 Identification Type Enumeration
+## Identification Type Enumeration
 
 | Value | Description |
 |--------|-------------|
@@ -66,7 +66,7 @@ It ensures data consistency and compatibility between Authentication, Card Lifec
 
 ---
 
-# ⚙️ Naming Conventions
+# Naming Conventions
 
 | Convention | Usage | Example |
 |------------|--------|---------|
@@ -76,7 +76,7 @@ It ensures data consistency and compatibility between Authentication, Card Lifec
 
 ---
 
-# 🔒 Validation Rules
+# Validation Rules
 
 | Validation Type | Description | Applies To |
 |------------------|-------------|------------|
@@ -88,7 +88,7 @@ It ensures data consistency and compatibility between Authentication, Card Lifec
 
 ---
 
-# 🧠 Example Schema
+# Example Schema
 
 ```json
 {
@@ -104,16 +104,17 @@ It ensures data consistency and compatibility between Authentication, Card Lifec
   "createdAt": "2025-04-15T10:45:30Z"
 }
 
-🧮 Validation Output Example
+Validation Output Example
+
 | Field           | Validation Type   | Result | Message                 |
 | --------------- | ----------------- | ------ | ----------------------- |
-| customerId      | Length Check      | ✅      | Valid                   |
-| idValue         | Pattern Check     | ✅      | CNIC format verified    |
-| amount          | Decimal Precision | ✅      | Valid (2 decimals)      |
-| transactionType | Enum Validation   | ❌      | Must be Credit or Debit |
+| customerId      | Length Check      | Pass   | Valid                   |
+| idValue         | Pattern Check     | Pass   | CNIC format verified    |
+| amount          | Decimal Precision | Pass   | Valid (2 decimals)      |
+| transactionType | Enum Validation   | Fail   | Must be Credit or Debit |
 
 
-🧰 Developer Notes
+## Developer Notes
 
 - All numeric values must be sent without commas or formatting.
 
@@ -127,11 +128,9 @@ Any invalid field triggers this error:
 
 - Always validate API payloads before sending requests.
 
-🚀 Next Steps
+## Next Steps
 
-➡️ Continue to Response Codes & Error Handling
-
-➡️ Explore Card Lifecycle APIs
-
-➡️ Test with API Explorer
+- Continue to Response Codes & Error Handling
+- Explore Card Lifecycle APIs
+- Test with API Explorer
 

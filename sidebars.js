@@ -11,11 +11,12 @@
 const sidebars = {
   tutorialSidebar: [
     'introduction',
-    'Structure',
+    'backOffice',
     'dataTypeRef',
     'developerWorkflow',
-    'response',
-    
+    "response",
+    "APISpecification"
+
     
   ],
 };

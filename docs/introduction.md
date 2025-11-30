@@ -1,10 +1,11 @@
-# 🚀 Introduction
+# Introduction
 
+![OpenCMS](/img/OpenCMS.png)
 Welcome to the Open CMS API Portal, your complete reference for integrating with Paysys Labs’ Card Management System (OpenCMS). This portal enables banks, fintechs, and partner systems to perform full card lifecycle operations through a secure, RESTful interface — from card issuance and activation to limit management, blocking rules, and channel preferences. OpenCMS serves as a centralized platform to manage debit, prepaid, and credit cards in real-time, providing seamless connectivity with external systems such as core banking, middleware, and mobile channels.
 
  
 
-## 🧱 What You Can Do with OpenCMS
+## What You Can Do with OpenCMS
 
 - Card Issuance & Lifecycle Management: Create, activate, block, and manage cards instantly.
 
@@ -20,7 +21,7 @@ Welcome to the Open CMS API Portal, your complete reference for integrating with
 
   
 
-## 🔒 API Security
+## API Security
 
 Each request to OpenCMS APIs must include a valid token generated from the Authentication endpoint. All endpoints are secured via HTTPS and require an X-Auth-Token header.
 
@@ -32,7 +33,7 @@ Tokens are valid for a limited duration and should be refreshed periodically.
 
   
 
-## 🧩 Integration Model
+## Integration Model
 
 OpenCMS APIs are designed to integrate directly with:
 
@@ -61,7 +62,7 @@ Live processing environment
 
   
 
-📘 Documentation Structure
+## Documentation Structure
 
 Section
 
@@ -89,6 +90,6 @@ Future section for version tracking (e.g., 3.2.4 → 3.3.0)
 
   
 
-💡 Tip
+## Tip
 
 All API requests should include a unique RRN (Retrieval Reference Number) to track and audit transactions across systems. RRNs are used end-to-end for reconciliation, error tracing, and reporting.
