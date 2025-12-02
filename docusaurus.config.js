@@ -1,7 +1,5 @@
 // @ts-check
-// Docusaurus site configuration
-
-import { themes as prismThemes } from 'prism-react-renderer';
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -9,15 +7,12 @@ const config = {
   tagline: 'Enterprise Card Management System',
   favicon: 'img/favicon.png',
 
-  future: {
-    v4: true,
-  },
-
-  url: 'https://opencms-docs.paysyslabs.com',
+  // Vercel URL (final domain set hone ke baad update kar sakte ho)
+  url: 'https://opencms-api-docs.vercel.app',
   baseUrl: '/',
 
-  organizationName: 'UsamaAbdulJabbar',
-  projectName: 'OpenCMS',
+  organizationName: 'uneebae',
+  projectName: 'opencms-api-docs',
 
   onBrokenLinks: 'throw',
 
@@ -33,14 +28,34 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/UsamaAbdulJabbar/OpenCMS/tree/main/',
+            'https://github.com/uneebae/opencms-api-docs/tree/main/',
         },
-
-        // BLOG DISABLED to fix author & blog errors
         blog: false,
-
         theme: {
           customCss: './src/css/custom.css',
+        },
+      },
+    ],
+  ],
+
+  plugins: [
+    [
+      '@scalar/docusaurus',
+      {
+        id: 'openCMS',
+        label: 'API Specifications',
+        route: '/api-specifications',
+        showNavLink: false,
+        configuration: {
+          url: 'openapi/OpenCMS-3.3.yml',
+          layout: 'modern',
+          theme: 'default',
+          darkMode: true,
+          defaultOpenAllTags: false,
+          hideModels: false,
+          hideTestRequestButton: false,
+          hideSearch: false,
+          hideDarkModeToggle: false,
         },
       },
     ],
@@ -53,7 +68,6 @@ const config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-
     navbar: {
       logo: {
         alt: 'Open CMS Logo',
@@ -64,76 +78,55 @@ const config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Overview',
+        },
+        {
+          to: '/api-specifications',
+          position: 'left',
+          label: 'API Specifications',
         },
         {
           type: 'doc',
-          docId: 'APISpecification',
+          docId: 'backOffice',
           position: 'left',
-          label: 'API Specification',
+          label: 'Back Office',
         },
         {
-          href: 'https://github.com/UsamaAbdulJabbar/OpenCMS',
+          href: 'https://github.com/uneebae/opencms-api-docs',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
-
     footer: {
       style: 'dark',
       links: [
         {
           title: 'Documentation',
           items: [
-            {
-              label: 'Getting Started',
-              to: '/docs',
-            },
-            {
-              label: 'API Reference',
-              to: '/docs/APISpecification',
-            },
-            {
-              label: 'Developer Workflow',
-              to: '/docs/developerWorkflow',
-            },
+            {label: 'Getting Started', to: '/docs'},
+            {label: 'API Reference', to: '/api-specifications'},
+            {label: 'Developer Workflow', to: '/docs/developerWorkflow'},
           ],
         },
         {
           title: 'Resources',
           items: [
-            {
-              label: 'Back Office',
-              to: '/docs/backOffice',
-            },
-            {
-              label: 'Data Types',
-              to: '/docs/dataTypeRef',
-            },
-            {
-              label: 'Response Codes',
-              to: '/docs/response',
-            },
+            {label: 'Back Office', to: '/docs/backOffice'},
+            {label: 'Data Types', to: '/docs/dataTypeRef'},
+            {label: 'Response Codes', to: '/docs/response'},
           ],
         },
         {
           title: 'Legal',
           items: [
-            {
-              label: 'Privacy Policy',
-              href: 'https://paysyslabs.com/privacy',
-            },
-            {
-              label: 'Terms of Service',
-              href: 'https://paysyslabs.com/terms',
-            },
+            {label: 'Privacy Policy', href: 'https://paysyslabs.com/privacy'},
+            {label: 'Terms of Service', href: 'https://paysyslabs.com/terms'},
           ],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Paysys Labs. All rights reserved.`,
     },
-
     prism: {
       theme: prismThemes.nightOwl,
       darkTheme: prismThemes.dracula,
