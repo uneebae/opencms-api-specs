@@ -7,14 +7,15 @@ const config = {
   tagline: 'Enterprise Card Management System',
   favicon: 'img/favicon.png',
 
-  // Vercel URL (final domain set hone ke baad update kar sakte ho)
-  url: 'https://opencms-api-docs.vercel.app',
-  baseUrl: '/',
+  // ✅ GitHub Pages config (repo: uneebae/opencms-api-specs)
+  url: 'https://uneebae.github.io',
+  baseUrl: '/opencms-api-specs/',
 
   organizationName: 'uneebae',
-  projectName: 'opencms-api-docs',
+  projectName: 'opencms-api-specs',
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
@@ -27,8 +28,9 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/uneebae/opencms-api-docs/tree/main/',
+          // 👇 Docs repo edit link
+          editUrl: 'https://github.com/uneebae/opencms-api-specs/tree/main/',
+          // routeBasePath default "docs" hi rahe gi
         },
         blog: false,
         theme: {
@@ -38,40 +40,53 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@scalar/docusaurus',
-      {
-        id: 'openCMS',
-        label: 'API Specifications',
-        route: '/api-specifications',
-        showNavLink: false,
-        configuration: {
-          url: 'openapi/OpenCMS-3.3.yml',
-          layout: 'modern',
-          theme: 'default',
-          darkMode: true,
-          defaultOpenAllTags: false,
-          hideModels: false,
-          hideTestRequestButton: false,
-          hideSearch: false,
-          hideDarkModeToggle: false,
+  // ⭐ Scalar plugin – API Specifications
+plugins: [
+  [
+    '@scalar/docusaurus',
+    {
+      id: 'openCMS',
+      label: 'API Specifications',
+      route: '/api-specifications',
+      showNavLink: false,
+      configuration: {
+        url: 'openapi/OpenCMS-3.3.yml',
+        layout: 'modern',
+        theme: 'default',
+        darkMode: true,
+        defaultOpenAllTags: false,
+        hideModels: false,
+        hideTestRequestButton: false,
+        hideSearch: false,
+        hideDarkModeToggle: false,
+
+        // 👇 THIS FIXES YOUR LOGO ISSUE COMPLETELY
+        hideLogo: true, 
+        branding: {
+          title: 'Open CMS API',
+          logo: '/img/PaysysLogo.png',       // YOUR PAYSYS LOGO
+          favicon: '/img/favicon.png'
         },
       },
-    ],
+    },
   ],
+],
+
 
   themeConfig: {
     image: 'img/OpenCMS.png',
+
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+
     navbar: {
       logo: {
-        alt: 'Open CMS Logo',
-        src: 'img/logo.png',
+        alt: 'Paysys Labs Logo',
+        // 🔥 yahan tumhara Paysys wala Logo.png use ho raha hai
+        src: 'img/PaysysLogo.png',
       },
       items: [
         {
@@ -92,19 +107,21 @@ const config = {
           label: 'Back Office',
         },
         {
-          href: 'https://github.com/uneebae/opencms-api-docs',
+          href: 'https://github.com/uneebae/opencms-api-specs',
           label: 'GitHub',
           position: 'right',
         },
       ],
     },
+
     footer: {
       style: 'dark',
       links: [
         {
           title: 'Documentation',
           items: [
-            {label: 'Getting Started', to: '/docs'},
+            // 🔗 directly docs ke real routes pe – /docs/introduction etc
+            {label: 'Getting Started', to: '/docs/introduction'},
             {label: 'API Reference', to: '/api-specifications'},
             {label: 'Developer Workflow', to: '/docs/developerWorkflow'},
           ],
@@ -127,6 +144,7 @@ const config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Paysys Labs. All rights reserved.`,
     },
+
     prism: {
       theme: prismThemes.nightOwl,
       darkTheme: prismThemes.dracula,
