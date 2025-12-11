@@ -9,7 +9,7 @@ info:
 servers:
   - url: https://api.opencms.paysyslabs.com
     description: Production
-  - url: https://uat.opencms.paysyslabs.com
+  - url: http://10.6.60.12:8088
     description: UAT
 
 tags:
