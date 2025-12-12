@@ -1,4 +1,4 @@
 [submodule "OpenCMS"]
   path = OpenCMS
-  url = https://github.com/uneebae/opencms-api-specs.git
+  url = https://github.com/uneebae/opencms-api-specs
 
