@@ -1,6 +1,6 @@
 openapi: 3.0.3 
 info:
-  title: Open CMS API
+  title: Open CMS APII
   version: 3.2.6
   description: |
     Unified OpenCMS API Reference. Modules: Authentication, Card Lifecycle, Card Inquiry,
