@@ -10,7 +10,7 @@ servers:
   - url: https://api.opencms.paysyslabs.com
     description: Production
   - url: http://10.6.60.12:8088
-    description: UAT
+    description: UATT
 
 tags:
   - name: Authentication
