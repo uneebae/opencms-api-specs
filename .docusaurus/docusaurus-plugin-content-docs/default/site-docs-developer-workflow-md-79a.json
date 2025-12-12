@@ -1,0 +1,24 @@
+{
+  "id": "developerWorkflow",
+  "title": "Developer Workflow",
+  "description": "Integrate with OpenCMS API for card lifecycle management, authentication, inquiries, limits, and preferences.",
+  "source": "@site/docs/developerWorkflow.md",
+  "sourceDirName": ".",
+  "slug": "/developerWorkflow",
+  "permalink": "/opencms-api-specs/docs/developerWorkflow",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/developerWorkflow.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/opencms-api-specs/docs/introduction"
+  },
+  "next": {
+    "title": "Data Type References",
+    "permalink": "/opencms-api-specs/docs/dataTypeRef"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "OpenCMS",
+  "source": "@site/docs/introduction.md",
+  "sourceDirName": ".",
+  "slug": "/introduction",
+  "permalink": "/opencms-api-specs/docs/introduction",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/introduction.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Developer Workflow",
+    "permalink": "/opencms-api-specs/docs/developerWorkflow"
+  }
+}

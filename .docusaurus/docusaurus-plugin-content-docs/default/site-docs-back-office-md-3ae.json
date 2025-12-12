@@ -1,0 +1,15 @@
+{
+  "id": "backOffice",
+  "title": "Open CMS Back Office",
+  "description": "openCMS:",
+  "source": "@site/docs/backOffice.md",
+  "sourceDirName": ".",
+  "slug": "/backOffice",
+  "permalink": "/opencms-api-specs/docs/backOffice",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/backOffice.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

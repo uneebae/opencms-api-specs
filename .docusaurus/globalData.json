@@ -1,0 +1,68 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/opencms-api-specs/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/opencms-api-specs/docs",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "APISpecification",
+              "path": "/opencms-api-specs/docs/APISpecification"
+            },
+            {
+              "id": "ApiSpecification/manage-users",
+              "path": "/opencms-api-specs/docs/ApiSpecification/manage-users"
+            },
+            {
+              "id": "ApiSpecification/settings",
+              "path": "/opencms-api-specs/docs/ApiSpecification/settings"
+            },
+            {
+              "id": "backOffice",
+              "path": "/opencms-api-specs/docs/backOffice"
+            },
+            {
+              "id": "dataTypeRef",
+              "path": "/opencms-api-specs/docs/dataTypeRef",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "developerWorkflow",
+              "path": "/opencms-api-specs/docs/developerWorkflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/opencms-api-specs/docs/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "response",
+              "path": "/opencms-api-specs/docs/response",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "users",
+              "path": "/opencms-api-specs/docs/users"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/opencms-api-specs/docs/introduction",
+                "label": "introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

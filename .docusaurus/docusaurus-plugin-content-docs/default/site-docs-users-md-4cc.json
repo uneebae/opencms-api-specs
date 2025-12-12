@@ -1,0 +1,15 @@
+{
+  "id": "users",
+  "title": "🧭 Developer Workflow",
+  "description": "This guide explains how a developer can integrate with the OpenCMS API, from obtaining authentication to performing operational requests such as card activation, inquiry, limits, status updates, and channel preference management.",
+  "source": "@site/docs/users.md",
+  "sourceDirName": ".",
+  "slug": "/users",
+  "permalink": "/opencms-api-specs/docs/users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/users.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

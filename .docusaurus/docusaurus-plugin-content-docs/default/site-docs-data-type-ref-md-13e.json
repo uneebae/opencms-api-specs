@@ -1,0 +1,24 @@
+{
+  "id": "dataTypeRef",
+  "title": "Data Type References",
+  "description": "This section provides a complete reference for all data types, enumerations, and validation rules used across OpenCMS APIs.",
+  "source": "@site/docs/dataTypeRef.md",
+  "sourceDirName": ".",
+  "slug": "/dataTypeRef",
+  "permalink": "/opencms-api-specs/docs/dataTypeRef",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/dataTypeRef.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Developer Workflow",
+    "permalink": "/opencms-api-specs/docs/developerWorkflow"
+  },
+  "next": {
+    "title": "Response Codes & Error Handling",
+    "permalink": "/opencms-api-specs/docs/response"
+  }
+}

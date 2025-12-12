@@ -1,0 +1,15 @@
+{
+  "id": "ApiSpecification/settings",
+  "title": "settings",
+  "description": "",
+  "source": "@site/docs/ApiSpecification/settings.md",
+  "sourceDirName": "ApiSpecification",
+  "slug": "/ApiSpecification/settings",
+  "permalink": "/opencms-api-specs/docs/ApiSpecification/settings",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/ApiSpecification/settings.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

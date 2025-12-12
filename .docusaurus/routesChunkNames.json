@@ -1,0 +1,71 @@
+{
+  "/opencms-api-specs/api-specifications-613": {
+    "__comp": "d2acf806",
+    "__context": {
+      "plugin": "a26a2c23"
+    }
+  },
+  "/opencms-api-specs/markdown-page-176": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "393be207"
+  },
+  "/opencms-api-specs/docs-392": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/opencms-api-specs/docs-4d9": {
+    "__comp": "a7bd4aaa",
+    "__props": "4864299c"
+  },
+  "/opencms-api-specs/docs-a36": {
+    "__comp": "a94703ab"
+  },
+  "/opencms-api-specs/docs/APISpecification-1fb": {
+    "__comp": "17896441",
+    "content": "8d25a30c"
+  },
+  "/opencms-api-specs/docs/ApiSpecification/manage-users-e15": {
+    "__comp": "17896441",
+    "content": "f19de3c1"
+  },
+  "/opencms-api-specs/docs/ApiSpecification/settings-01a": {
+    "__comp": "17896441",
+    "content": "a4d734d9"
+  },
+  "/opencms-api-specs/docs/backOffice-468": {
+    "__comp": "17896441",
+    "content": "3aeb63dc"
+  },
+  "/opencms-api-specs/docs/dataTypeRef-75a": {
+    "__comp": "17896441",
+    "content": "13ee872c"
+  },
+  "/opencms-api-specs/docs/developerWorkflow-601": {
+    "__comp": "17896441",
+    "content": "79a589e0"
+  },
+  "/opencms-api-specs/docs/introduction-4a9": {
+    "__comp": "17896441",
+    "content": "a09c2993"
+  },
+  "/opencms-api-specs/docs/response-f88": {
+    "__comp": "17896441",
+    "content": "e70e8d25"
+  },
+  "/opencms-api-specs/docs/users-63d": {
+    "__comp": "17896441",
+    "content": "4cc4d2ba"
+  },
+  "/opencms-api-specs/-f5b": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  }
+}

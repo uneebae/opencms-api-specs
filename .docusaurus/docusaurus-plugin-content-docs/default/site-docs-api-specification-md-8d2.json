@@ -1,0 +1,15 @@
+{
+  "id": "APISpecification",
+  "title": "API Specification",
+  "description": "Authenticate API",
+  "source": "@site/docs/APISpecification.md",
+  "sourceDirName": ".",
+  "slug": "/APISpecification",
+  "permalink": "/opencms-api-specs/docs/APISpecification",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/APISpecification.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

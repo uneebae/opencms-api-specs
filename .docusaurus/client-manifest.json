@@ -1,0 +1,343 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "237": [
+      237
+    ],
+    "285": [
+      61,
+      401,
+      869,
+      285
+    ],
+    "17896441": [
+      285,
+      869,
+      401
+    ],
+    "main": [
+      354,
+      869,
+      792
+    ],
+    "runtime~main": [
+      792,
+      869,
+      354
+    ],
+    "13ee872c": [
+      807
+    ],
+    "1f391b9e": [
+      285,
+      869,
+      61
+    ],
+    "393be207": [
+      134
+    ],
+    "3aeb63dc": [
+      944
+    ],
+    "4864299c": [
+      774
+    ],
+    "4cc4d2ba": [
+      904
+    ],
+    "5e95c892": [
+      647
+    ],
+    "79a589e0": [
+      927
+    ],
+    "8d25a30c": [
+      215
+    ],
+    "a09c2993": [
+      899
+    ],
+    "a26a2c23": [
+      425
+    ],
+    "a4d734d9": [
+      735
+    ],
+    "a7456010": [
+      235
+    ],
+    "a7bd4aaa": [
+      98
+    ],
+    "a94703ab": [
+      869,
+      48
+    ],
+    "aba21aa0": [
+      742
+    ],
+    "c4f5d8e4": [
+      869,
+      634
+    ],
+    "d2acf806": [
+      869,
+      653
+    ],
+    "e70e8d25": [
+      509
+    ],
+    "f19de3c1": [
+      335
+    ],
+    "styles": [
+      48,
+      61,
+      285,
+      354,
+      401,
+      634,
+      653,
+      792,
+      869
+    ]
+  },
+  "assets": {
+    "48": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.2abbf6ff.js",
+          "hash": "03961686c827a62b",
+          "publicPath": "/opencms-api-specs/assets/js/a94703ab.2abbf6ff.js"
+        }
+      ]
+    },
+    "61": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.49cb7845.js",
+          "hash": "06116476bb36278b",
+          "publicPath": "/opencms-api-specs/assets/js/1f391b9e.49cb7845.js"
+        }
+      ]
+    },
+    "98": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.bf4ec504.js",
+          "hash": "fb3dac1b72419a51",
+          "publicPath": "/opencms-api-specs/assets/js/a7bd4aaa.bf4ec504.js"
+        }
+      ]
+    },
+    "134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.02d88b8d.js",
+          "hash": "1d7e82e36bf104bd",
+          "publicPath": "/opencms-api-specs/assets/js/393be207.02d88b8d.js"
+        }
+      ]
+    },
+    "215": {
+      "js": [
+        {
+          "file": "assets/js/8d25a30c.25f0348f.js",
+          "hash": "6ae7638f60d6d50b",
+          "publicPath": "/opencms-api-specs/assets/js/8d25a30c.25f0348f.js"
+        }
+      ]
+    },
+    "235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.7012e6fb.js",
+          "hash": "5a41ae010e3d51dd",
+          "publicPath": "/opencms-api-specs/assets/js/a7456010.7012e6fb.js"
+        }
+      ]
+    },
+    "237": {
+      "js": [
+        {
+          "file": "assets/js/237.1f829011.js",
+          "hash": "244595e18708476c",
+          "publicPath": "/opencms-api-specs/assets/js/237.1f829011.js"
+        }
+      ]
+    },
+    "285": {
+      "js": [
+        {
+          "file": "assets/js/285.6e5cb3e7.js",
+          "hash": "980e77b4971c7163",
+          "publicPath": "/opencms-api-specs/assets/js/285.6e5cb3e7.js"
+        }
+      ]
+    },
+    "335": {
+      "js": [
+        {
+          "file": "assets/js/f19de3c1.58836a80.js",
+          "hash": "d45fc584793c04c2",
+          "publicPath": "/opencms-api-specs/assets/js/f19de3c1.58836a80.js"
+        }
+      ]
+    },
+    "354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.b06f0a78.js",
+          "hash": "f2db24e0dfe08905",
+          "publicPath": "/opencms-api-specs/assets/js/runtime~main.b06f0a78.js"
+        }
+      ]
+    },
+    "401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.8782e78b.js",
+          "hash": "29968e08dacd967a",
+          "publicPath": "/opencms-api-specs/assets/js/17896441.8782e78b.js"
+        }
+      ]
+    },
+    "425": {
+      "js": [
+        {
+          "file": "assets/js/a26a2c23.ff50f8df.js",
+          "hash": "a48b7562b4a5cd5d",
+          "publicPath": "/opencms-api-specs/assets/js/a26a2c23.ff50f8df.js"
+        }
+      ]
+    },
+    "509": {
+      "js": [
+        {
+          "file": "assets/js/e70e8d25.6adf21c7.js",
+          "hash": "c23dc065f0edba4b",
+          "publicPath": "/opencms-api-specs/assets/js/e70e8d25.6adf21c7.js"
+        }
+      ]
+    },
+    "634": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.f71e7cc5.js",
+          "hash": "bfac8541e9448803",
+          "publicPath": "/opencms-api-specs/assets/js/c4f5d8e4.f71e7cc5.js"
+        }
+      ]
+    },
+    "647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.914f6776.js",
+          "hash": "9e8e5f761b92545f",
+          "publicPath": "/opencms-api-specs/assets/js/5e95c892.914f6776.js"
+        }
+      ]
+    },
+    "653": {
+      "js": [
+        {
+          "file": "assets/js/d2acf806.6c1a041f.js",
+          "hash": "6395cbc43cddcfa8",
+          "publicPath": "/opencms-api-specs/assets/js/d2acf806.6c1a041f.js"
+        }
+      ]
+    },
+    "735": {
+      "js": [
+        {
+          "file": "assets/js/a4d734d9.6abd7dd2.js",
+          "hash": "6b890388f81ddbde",
+          "publicPath": "/opencms-api-specs/assets/js/a4d734d9.6abd7dd2.js"
+        }
+      ]
+    },
+    "742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.2edd2733.js",
+          "hash": "84e1eac60ac4e9ed",
+          "publicPath": "/opencms-api-specs/assets/js/aba21aa0.2edd2733.js"
+        }
+      ]
+    },
+    "774": {
+      "js": [
+        {
+          "file": "assets/js/4864299c.24bf67fc.js",
+          "hash": "96a935acc3b3fa47",
+          "publicPath": "/opencms-api-specs/assets/js/4864299c.24bf67fc.js"
+        }
+      ]
+    },
+    "792": {
+      "js": [
+        {
+          "file": "assets/js/main.e261d02e.js",
+          "hash": "f3d80920b59ab3d7",
+          "publicPath": "/opencms-api-specs/assets/js/main.e261d02e.js"
+        }
+      ]
+    },
+    "807": {
+      "js": [
+        {
+          "file": "assets/js/13ee872c.3dba076a.js",
+          "hash": "3c25ff4dcf54067f",
+          "publicPath": "/opencms-api-specs/assets/js/13ee872c.3dba076a.js"
+        }
+      ]
+    },
+    "869": {
+      "css": [
+        {
+          "file": "assets/css/styles.4baeed1c.css",
+          "hash": "229d655152935121",
+          "publicPath": "/opencms-api-specs/assets/css/styles.4baeed1c.css"
+        }
+      ]
+    },
+    "899": {
+      "js": [
+        {
+          "file": "assets/js/a09c2993.17348515.js",
+          "hash": "812314e3a5f07a1a",
+          "publicPath": "/opencms-api-specs/assets/js/a09c2993.17348515.js"
+        }
+      ]
+    },
+    "904": {
+      "js": [
+        {
+          "file": "assets/js/4cc4d2ba.e8698839.js",
+          "hash": "30d05674b9100b47",
+          "publicPath": "/opencms-api-specs/assets/js/4cc4d2ba.e8698839.js"
+        }
+      ]
+    },
+    "927": {
+      "js": [
+        {
+          "file": "assets/js/79a589e0.b1b41604.js",
+          "hash": "ebecc19c0ab088d3",
+          "publicPath": "/opencms-api-specs/assets/js/79a589e0.b1b41604.js"
+        }
+      ]
+    },
+    "944": {
+      "js": [
+        {
+          "file": "assets/js/3aeb63dc.f6c1b07c.js",
+          "hash": "fd6f93100b2425fc",
+          "publicPath": "/opencms-api-specs/assets/js/3aeb63dc.f6c1b07c.js"
+        }
+      ]
+    }
+  }
+}

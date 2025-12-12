@@ -1,0 +1,15 @@
+{
+  "id": "ApiSpecification/manage-users",
+  "title": "manage-users",
+  "description": "",
+  "source": "@site/docs/ApiSpecification/manage-users.md",
+  "sourceDirName": "ApiSpecification",
+  "slug": "/ApiSpecification/manage-users",
+  "permalink": "/opencms-api-specs/docs/ApiSpecification/manage-users",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/uneebae/opencms-api-specs/tree/main/docs/ApiSpecification/manage-users.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}
