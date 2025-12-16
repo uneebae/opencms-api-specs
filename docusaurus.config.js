@@ -100,7 +100,7 @@ const config = {
           title: 'Documentation',
           items: [
             { label: 'Getting Started', to: '/introduction' },
-            { label: 'API Reference', to: '/api-specifications' },
+            { label: 'API Specification', to: '/api-specifications' },
             { label: 'Developer Workflow', to: '/developerWorkflow' },
           ],
         },

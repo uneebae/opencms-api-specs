@@ -133,4 +133,3 @@ Any invalid field triggers this error:
 - Continue to Response Codes & Error Handling
 - Explore Card Lifecycle APIs
 - Test with API Explorer
-

@@ -1,16 +1,14 @@
 openapi: 3.0.3 
 info:
-  title: Open CMS APII
+  title: Open CMS API
   version: 3.2.6
   description: |
     Unified OpenCMS API Reference. Modules: Authentication, Card Lifecycle, Card Inquiry,
     Card Details, Card Limits, Products, Block Rules, Channel Preferences, and Card Status.
 
 servers:
-  - url: https://api.opencms.paysyslabs.com
-    description: Production
   - url: http://10.6.60.12:8088
-    description: UATT
+    description: Generated server url
 
 tags:
   - name: Authentication

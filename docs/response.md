@@ -109,5 +109,3 @@ Every OpenCMS API returns a **Response Object** containing:
 - Continue with Authentication API
 - Explore Card Lifecycle APIs
 - Review Data Type References
-
-

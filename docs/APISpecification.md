@@ -1,3 +1,4 @@
+
 # API Specification
 
 ## Authenticate API
@@ -907,4 +908,3 @@ The following endpoints are also available in the OpenCMS API:
 - **POST** `/api/v1/cardApi/updateChannelPreference` — Update customer channel preferences
 
 For detailed documentation on these endpoints, please refer to the ReadMe.io API reference or contact support.
-

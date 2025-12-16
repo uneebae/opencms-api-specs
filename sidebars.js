@@ -7,6 +7,7 @@ const sidebars = {
     'developerWorkflow',
     'dataTypeRef',
     'response',
+
   ],
 };
 

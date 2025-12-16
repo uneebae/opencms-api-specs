@@ -1,9 +1,0 @@
-# [submodule "OpenCMS"]
-#   path = OpenCMS
-#   url = https://github.com/uneebae/opencms-api-specs
-
-[submodule "OpenCMS/OpenCMS"]
-  path = OpenCMS/OpenCMS
-  url = https://github.com/uneebae/opencms-api-specs.git
-
-
