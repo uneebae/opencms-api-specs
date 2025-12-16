@@ -1,13 +1,11 @@
-// sidebars.js
-
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   tutorialSidebar: [
     'introduction',
+    'APISpecification',
     'developerWorkflow',
+    'backOffice',
     'dataTypeRef',
     'response',
-
   ],
 };
 

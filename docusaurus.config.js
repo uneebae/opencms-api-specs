@@ -7,14 +7,19 @@ const config = {
   tagline: 'Enterprise Card Management System',
   favicon: 'img/favicon.png',
 
-  // GitHub Pages (repo: uneebae/opencms-api-specs)
   url: 'https://uneebae.github.io',
   baseUrl: '/opencms-api-specs/',
   organizationName: 'uneebae',
   projectName: 'opencms-api-specs',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -28,8 +33,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: 'docs',
-
-          editUrl: 'https://github.com/uneebae/opencms-api-specs/tree/main/',
+          editUrl: 'https://github.com/uneebae/opencms-api-specs/tree/UNEEB2/',
         },
         blog: false,
         theme: {
@@ -44,50 +48,33 @@ const config = {
       '@scalar/docusaurus',
       {
         id: 'openCMS',
-        label: 'API Specifications',
         route: '/api-specifications',
         showNavLink: false,
         configuration: {
-          url: 'openapi/OpenCMS-3.3.yml',
+          url: '/openapi/OpenCMS-3.3.yml',
           layout: 'modern',
           theme: 'default',
           darkMode: true,
-          defaultOpenAllTags: false,
-          hideModels: false,
-          hideTestRequestButton: false,
-          hideSearch: false,
-          hideDarkModeToggle: false,
-          hideLogo: true,
-          branding: {
-            title: 'Open CMS API',
-            logo: '/img/PaysysLogo.png',
-            favicon: '/img/favicon.png',
-          },
         },
       },
     ],
   ],
 
   themeConfig: {
-    image: 'img/OpenCMS.png',
-
-    colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
-      respectPrefersColorScheme: true,
-    },
-
     navbar: {
       logo: {
         alt: 'Paysys Labs Logo',
         src: 'img/PaysysLogo.png',
-        href:'/opencms-api-specs/docs/introduction',
+        href: '/opencms-api-specs/docs/introduction',
       },
       items: [
-        { to: '/', label: 'Overview', position: 'left' },
+        { to: '/docs/introduction', label: 'Overview', position: 'left' },
         { to: '/api-specifications', label: 'API Specifications', position: 'left' },
-        { type: 'doc', docId: 'backOffice', label: 'Back Office', position: 'left' },
-        //{ href: 'https://github.com/uneebae/opencms-api-specs', label: 'GitHub', position: 'right' },
+        {
+          href: 'https://github.com/uneebae/opencms-api-specs',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
 
@@ -97,28 +84,11 @@ const config = {
         {
           title: 'Documentation',
           items: [
-            { label: 'Getting Started', to: '/introduction' },
-            { label: 'API Specification', to: '/api-specifications' },
-            { label: 'Developer Workflow', to: '/developerWorkflow' },
-          ],
-        },
-        {
-          title: 'Resources',
-          items: [
-            { label: 'Back Office', to: '/backOffice' },
-            { label: 'Data Types', to: '/dataTypeRef' },
-            { label: 'Response Codes', to: '/response' },
-          ],
-        },
-        {
-          title: 'Legal',
-          items: [
-            { label: 'Privacy Policy', href: 'https://paysyslabs.com/privacy' },
-            { label: 'Terms of Service', href: 'https://paysyslabs.com/terms' },
+            { label: 'Getting Started', to: '/docs/introduction' },
+            { label: 'API Reference', to: '/api-specifications' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Paysys Labs. All rights reserved.`,
     },
 
     prism: {
