@@ -27,11 +27,9 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: 'docs',
 
-          // IMPORTANT: Make docs the homepage
-          routeBasePath: '/',
-
-          editUrl: 'https://github.com/uneebae/opencms-api-specs/tree/UNEEB2/',
+          editUrl: 'https://github.com/uneebae/opencms-api-specs/tree/main/',
         },
         blog: false,
         theme: {
@@ -83,13 +81,13 @@ const config = {
       logo: {
         alt: 'Paysys Labs Logo',
         src: 'img/PaysysLogo.png',
+        href:'/opencms-api-specs/docs/introduction',
       },
       items: [
-        // docs are at '/', so use to: '/'
         { to: '/', label: 'Overview', position: 'left' },
         { to: '/api-specifications', label: 'API Specifications', position: 'left' },
         { type: 'doc', docId: 'backOffice', label: 'Back Office', position: 'left' },
-        { href: 'https://github.com/uneebae/opencms-api-specs', label: 'GitHub', position: 'right' },
+        //{ href: 'https://github.com/uneebae/opencms-api-specs', label: 'GitHub', position: 'right' },
       ],
     },
 
