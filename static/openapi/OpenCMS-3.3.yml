@@ -8,7 +8,7 @@ info:
 
 servers:
   - url: http://10.6.60.12:8088
-    description: Generated server url
+    description: UAT
 
 tags:
   - name: Authentication
