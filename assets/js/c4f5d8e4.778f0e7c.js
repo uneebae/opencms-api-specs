@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkopen_cms_paysyslabs=globalThis.webpackChunkopen_cms_paysyslabs||[]).push([[634],{192:(s,a,n)=>{n.r(a),n.d(a,{default:()=>c});n(6540);var o=n(6347),t=n(6025),u=n(4848);function c(){return(0,u.jsx)(o.rd,{to:(0,t.Ay)("/introduction")})}}}]);
